@@ -6,23 +6,10 @@
     </menu>
   </header>
   <ul>
+    @for (task of selectedUserTasks; track $index) {
     <li>
-      <app-task></app-task>
+      <app-task [task]="task"></app-task>
     </li>
-    <li>
-      <app-task></app-task>
-    </li>
-    <li>
-      <app-task></app-task>
-    </li>
-    <li>
-      <app-task></app-task>
-    </li>
-    <li>
-      <app-task></app-task>
-    </li>
-    <li>
-      <app-task></app-task>
-    </li>
+    }
   </ul>
 </section>
