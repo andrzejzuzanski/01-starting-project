@@ -2,7 +2,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { TaskComponent } from './task/task.component';
 import { NewTaskComponent } from './new-task/new-task.component';
 import { NewTaskData } from './task/task.model';
-import { take } from 'rxjs';
 
 @Component({
   selector: 'app-tasks',
